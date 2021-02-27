@@ -22,6 +22,7 @@ def get_final_price():
         final_cost = final_cost - (0.2 * final_cost)
     print("The total price is " + str(final_cost) + ".")
 
+
 """
 DEFINE YOUR FUNCTIONS ABOVE
 """
@@ -29,11 +30,11 @@ DEFINE YOUR FUNCTIONS ABOVE
 
 def main():
     """
-    Executes print_earth_age().
+    Executes get_final_price().
 
     pre-condition: Nothing has yet been executed.
 
-    post-condition: print_earth_age() has been executed.
+    post-condition: get_final_price() has been executed.
     """
     get_final_price()
 
